@@ -1,4 +1,4 @@
-# Gotering
+Gotering
 Food Ordering App
 
-### Ignore the comments
+- Ignore the comments
