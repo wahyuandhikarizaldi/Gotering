@@ -1,4 +1,4 @@
 # Gotering
-## Food Ordering App
+Food Ordering App
 
-#### Ignore the comments
+> Ignore the comments hehe
