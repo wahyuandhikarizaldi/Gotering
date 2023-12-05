@@ -1,13 +1,32 @@
 {
   "project_info": {
-    "project_number": "305435743322",
-    "project_id": "myencryptapp-c509c",
-    "storage_bucket": "myencryptapp-c509c.appspot.com"
+    "project_number": "974768756424",
+    "project_id": "gotering-fix",
+    "storage_bucket": "gotering-fix.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:305435743322:android:bdd4619dead822a442b463",
+        "mobilesdk_app_id": "1:974768756424:android:bd2cafbafffeb8124077fd",
+        "android_client_info": {
+          "package_name": "com.example.gotering_fix_banget"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMv9w0d4rJyDiiwAx4U76ybNrebta9aak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974768756424:android:8ef4a2dbdce1b6264077fd",
         "android_client_info": {
           "package_name": "com.example.gotering_tb_ptb"
         }
@@ -15,45 +34,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBkYF-aM761VUpsunwB_bQaWq70_sx_zrA"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:305435743322:android:c050514ead7f61a242b463",
-        "android_client_info": {
-          "package_name": "com.example.myencryptapp"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBkYF-aM761VUpsunwB_bQaWq70_sx_zrA"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:305435743322:android:2c9091e0772112c342b463",
-        "android_client_info": {
-          "package_name": "com.example.mypersadacinta"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBkYF-aM761VUpsunwB_bQaWq70_sx_zrA"
+          "current_key": "AIzaSyAMv9w0d4rJyDiiwAx4U76ybNrebta9aak"
         }
       ],
       "services": {
