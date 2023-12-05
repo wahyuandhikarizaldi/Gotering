@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GOTERING_TB_PTB</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_image_description" />
+</resources>

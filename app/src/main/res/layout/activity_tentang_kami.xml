@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.TentangKamiActivity">
+
+    <ImageView
+        android:id="@+id/aboutimg"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/gotering">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/aboutgotering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT GOTERING.COM"
+        android:layout_below="@id/aboutimg"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:id="@+id/penjelasanabout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aboutgotering"
+        android:text="Aplikasi ini dibuat dengan sepenuh hati untuk memudahkan para pelanggan dalam memesan makanan dengan porsi yang banyak untuk sebuah acara atau kegiatan yang memerlukan banyak porsi makanan"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TERIMAKASIH SUDAH MENGGUNAKAN APLIKASI INI DAN MEMBELI MAKANAN DI TEMPAT KAMI"
+        android:layout_below="@id/penjelasanabout"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"/>
+
+
+</RelativeLayout>

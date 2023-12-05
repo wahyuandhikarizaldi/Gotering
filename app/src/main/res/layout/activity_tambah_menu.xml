@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:theme="?attr/actionBarTheme">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/ayamgeprek"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/namaayamgeprek"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ayamgeprek"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="10dp"
+        android:text="Ayam Geprek"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hargaayamgeprek"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/namaayamgeprek"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="Rp0"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/jumlahayamgeprek"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/hargaayamgeprek"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="10dp"
+        android:text="JUMLAH:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tombolkurang"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@id/jumlahayamgeprek"
+        android:layout_alignRight="@id/jumlahayamgeprek"
+        android:text="-"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#dcd0ff" />
+
+    <TextView
+        android:id="@+id/angkajumlah"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@id/jumlahayamgeprek"
+        android:layout_alignRight="@id/jumlahayamgeprek"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="75dp"
+        android:backgroundTint="#009688"
+        android:text="0"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/tomboltambah"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@id/jumlahayamgeprek"
+        android:layout_alignRight="@id/jumlahayamgeprek"
+        android:text="+"
+        android:backgroundTint="#dcd0ff"
+        />
+    <TextView
+        android:id="@+id/totalayamgeprek"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/jumlahayamgeprek"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="10dp"
+        android:text="TOTAL:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/totalhargayamgeprek"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/jumlahayamgeprek"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="260dp"
+        android:layout_marginBottom="10dp"
+        android:text="Rp0"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Tambahkan"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/totalayamgeprek"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#dcd0ff"
+        android:gravity="center"
+        android:text="TAMBAHKAN" />
+
+</RelativeLayout>
