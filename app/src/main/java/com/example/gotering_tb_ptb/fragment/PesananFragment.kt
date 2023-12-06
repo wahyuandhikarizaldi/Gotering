@@ -276,7 +276,6 @@ class PesananFragment : Fragment() {
                 Log.d("orderTotal", orderTotal)
                 Log.d("orderDisc", orderDisc)
 
-
                 val orderID = generateRandomOrderId()
 
                 val orderDate = getCurrentDate()

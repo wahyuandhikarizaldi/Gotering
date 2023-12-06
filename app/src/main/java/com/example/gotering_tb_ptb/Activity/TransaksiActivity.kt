@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import java.util.*
 import android.view.MenuItem
+import androidx.appcompat.widget.Toolbar
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.example.gotering_tb_ptb.R
@@ -47,6 +48,15 @@ class TransaksiActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_transaksi)
+
+        // Set the toolbar as the action bar for the activity
+        val toolbar = findViewById<Toolbar>(R.id.toolbar4)
+        toolbar.title = ""
+
+        setSupportActionBar(toolbar)
+
+        // Add a back button to the toolbar
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val linearLayout = findViewById<LinearLayout>(R.id.linear_layout_documents)
         linearLayout.removeAllViews() // Remove any existing TextViews

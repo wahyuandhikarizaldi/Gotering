@@ -266,12 +266,7 @@ class KonfirmasiActivity : AppCompatActivity(){
                 intent.putExtra("updateTransaksiFragment", true)
                 startActivity(intent)
             }
-
         }
-
-
-
-
     }
 
     private fun loadProducts(): ArrayList<Product> {

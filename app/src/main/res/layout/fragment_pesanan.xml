@@ -266,8 +266,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
         android:layout_marginBottom="20dp"
+        android:backgroundTint="#dcd0ff"
         android:gravity="center"
-        android:text="CHECKOUT"
-        android:backgroundTint="#dcd0ff"/>
+        android:text="CHECKOUT" />
 
 </RelativeLayout>

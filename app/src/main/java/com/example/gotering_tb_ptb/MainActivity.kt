@@ -10,6 +10,7 @@ import com.example.gotering_tb_ptb.fragment.HomeFragment
 import com.example.gotering_tb_ptb.fragment.PesananFragment
 import com.example.gotering_tb_ptb.fragment.TransaksiFragment
 import com.example.gotering_tb_ptb.fragment.SearchFragment
+import com.example.gotering_tb_ptb.fragment.ProfileFragment
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -18,6 +19,7 @@ class MainActivity : AppCompatActivity() {
     private val fragmentSearch: Fragment = SearchFragment()
     private val fragmentPesanan: Fragment = PesananFragment()
     private val fragmentTransaksi: Fragment = TransaksiFragment()
+    private val fragmentProfile: Fragment = ProfileFragment()
 
     private val fragmentManager: FragmentManager = supportFragmentManager
     private var active: Fragment = fragmentHome
@@ -65,6 +67,7 @@ class MainActivity : AppCompatActivity() {
         fragmentManager.beginTransaction().add(binding.container.id, fragmentSearch).hide(fragmentSearch).commit()
         fragmentManager.beginTransaction().add(binding.container.id, fragmentPesanan).hide(fragmentPesanan).commit()
         fragmentManager.beginTransaction().add(binding.container.id, fragmentTransaksi).hide(fragmentTransaksi).commit()
+        fragmentManager.beginTransaction().add(binding.container.id, fragmentProfile).hide(fragmentProfile).commit()
 
         binding.navView.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
@@ -79,6 +82,9 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.navigation_transaksi -> {
                     callFragment(3, fragmentTransaksi)
+                }
+                R.id.navigation_profile -> {
+                    callFragment(4, fragmentProfile)
                 }
             }
             false

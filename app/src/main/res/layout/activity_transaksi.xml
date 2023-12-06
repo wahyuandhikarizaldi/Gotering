@@ -5,16 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:theme="?attr/actionBarTheme" >
+    </androidx.appcompat.widget.Toolbar>
 
     <TextView
         android:id="@+id/namaayamgeprek"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="17dp"
+        android:layout_below="@+id/toolbar4"
+        android:layout_marginHorizontal="20dp"
         android:layout_marginBottom="10dp"
         android:text="Transaction Receipt"
         android:textSize="25sp"

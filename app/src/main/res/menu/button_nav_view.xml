@@ -13,6 +13,9 @@
     <item
         android:id="@+id/navigation_transaksi"
         android:icon="@drawable/baseline_transaksi_24"/>
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/baseline_person_24"/>
 
 
 </menu>
